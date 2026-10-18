@@ -31,4 +31,10 @@ function materialsSemester(s){let b=courses.filter(c=>c.semester===s).map(c=>`<b
 function openMaterial(code){let m=materials[code],points=m.points.map((x,i)=>`<div class="course"><b>${i+1}.</b> ${x}</div>`).join('');page('📚 '+code+' — '+m.title,`<div class="box"><p>${m.intro}</p><p class="muted"><b>Note:</b> These are generated revision notes, not official AKSU lecture notes.</p></div><h2>Key Revision Areas</h2>${points}<div class="box"><h3>Revision Summary</h3><p>${m.summary}</p></div><button onclick="startCBT(code)">📝 Practice 35 Questions</button><br><br><button onclick="materialsHome()">← Materials</button><br><br><button onclick="home()">🏠 Home</button>`)}
 function progress(){let rows=courses.map(c=>{let b=Number(localStorage.getItem('best_'+c.code)||0);return `<div class="course"><b>${c.code}</b> — Best CBT score: ${b} / 35</div>`}).join('');page('📊 My Progress',`<p>Your best CBT scores are saved on this device.</p>${rows}<br><button onclick="home()">← Home</button>`)}
 home();
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js");
+  });
+}
 </script></body></html>
