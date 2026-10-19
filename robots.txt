@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wizzypeter2024-sys.github.io/Aksu-Study-App/sitemap.xml
