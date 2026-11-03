@@ -1,122 +1,294 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-NG">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#063d27">
-<meta name="description" content="AKSU Study Companion — study smarter with CBT practice, GPA and CGPA calculators, study materials and more.">
-<meta property="og:title" content="AKSU Study Companion">
-<meta property="og:description" content="Study smarter. Achieve better. Explore student learning tools and contact UserBusy for website and app development.">
-<title>AKSU Study Companion | UserBusy</title>
+
+<!-- SEO METADATA -->
+<title>AKSU Study Companion | Download Student Learning App | UserBusy</title>
+<meta name="description" content="Download AKSU Study Companion, an independent learning app for Akwa Ibom State University students. Explore CBT practice, GPA and CGPA calculators, study materials and student tools.">
+<meta name="keywords" content="AKSU Study Companion, Akwa Ibom State University app, AKSU student app, AKSU CBT practice, AKSU GPA calculator, AKSU CGPA calculator, study materials, UserBusy">
+<meta name="author" content="UserBusy">
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+<link rel="canonical" href="https://wizzypeter2024-sys.github.io/Aksu-Study-App/AKSU_Study_Companion_Landing_Page_UserBusy_Design.html">
+
+<!-- FACEBOOK / WHATSAPP / SOCIAL SHARING -->
+<meta property="og:locale" content="en_NG">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AKSU Study Companion">
+<meta property="og:title" content="AKSU Study Companion | Student Learning App">
+<meta property="og:description" content="Study smarter with CBT practice, GPA and CGPA calculators, study materials and more. Download the Android app.">
+<meta property="og:url" content="https://wizzypeter2024-sys.github.io/Aksu-Study-App/AKSU_Study_Companion_Landing_Page_UserBusy_Design.html">
+<meta property="og:image" content="https://wizzypeter2024-sys.github.io/Aksu-Study-App/icon-512.png">
+<meta property="og:image:alt" content="AKSU Study Companion app icon">
+
+<!-- TWITTER / X -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="AKSU Study Companion | Student Learning App">
+<meta name="twitter:description" content="CBT practice, GPA and CGPA calculators, study materials and student tools for AKSU learners.">
+<meta name="twitter:image" content="https://wizzypeter2024-sys.github.io/Aksu-Study-App/icon-512.png">
+
 <link rel="icon" type="image/png" href="icon-512.png">
+
+<!-- GOOGLE STRUCTURED DATA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "AKSU Study Companion",
+  "applicationCategory": "EducationalApplication",
+  "operatingSystem": "Android",
+  "description": "An independent student learning app for Akwa Ibom State University students, featuring CBT practice, GPA and CGPA calculators, study materials and academic tools.",
+  "url": "https://wizzypeter2024-sys.github.io/Aksu-Study-App/AKSU_Study_Companion_Landing_Page_UserBusy_Design.html",
+  "downloadUrl": "https://wizzypeter2024-sys.github.io/Aksu-Study-App/aksu_study_companion.apk",
+  "author": {
+    "@type": "Person",
+    "name": "UserBusy"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "NGN"
+  }
+}
+</script>
+
 <style>
 :root{--forest:#043d27;--green:#078c3c;--lime:#19c65b;--gold:#ffd21a;--ink:#101b2b;--muted:#526174;--paper:#f3f8fc;--white:#fff}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper);line-height:1.5}
-a{color:inherit}.wrap{width:min(1180px,94%);margin:auto}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper);line-height:1.5}
+a{color:inherit}
+.wrap{width:min(1180px,94%);margin:auto}
+
 .top{background:linear-gradient(115deg,#032f20,#07502f 60%,#003d2b);color:#fff;border-bottom:2px solid #0b9a48}
 nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-size:clamp(1rem,2.5vw,1.5rem);font-weight:900}
 .brand img{width:43px;height:43px;object-fit:contain;background:#fff;border-radius:50%;padding:4px}
-.navlinks{display:flex;gap:24px;align-items:center}.navlinks a{text-decoration:none;font-weight:700;font-size:.95rem;color:#f5fff8}.navlinks a:hover{color:var(--gold)}
+.navlinks{display:flex;gap:24px;align-items:center}
+.navlinks a{text-decoration:none;font-weight:700;font-size:.95rem;color:#f5fff8}
+.navlinks a:hover{color:var(--gold)}
+
 .hero{background:linear-gradient(115deg,#003c25,#006b37 65%,#06452d);color:#fff;overflow:hidden;position:relative}
 .hero:after{content:"";position:absolute;width:440px;height:440px;border-radius:50%;background:#20d55b20;right:-90px;top:-180px}
 .hero-inner{min-height:440px;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:25px;padding:55px 0 68px;position:relative;z-index:1}
 .kicker{display:inline-block;border:1px solid #ffffff55;background:#ffffff13;border-radius:30px;padding:7px 14px;font-weight:800;font-size:.78rem;letter-spacing:.08em}
 h1{font-size:clamp(2.6rem,6.5vw,5rem);line-height:.98;letter-spacing:-.045em;margin:22px 0 12px}
-h1 span{color:var(--gold)}.tagline{font-size:clamp(1.2rem,2.8vw,1.8rem);font-weight:800;font-style:italic;margin:0 0 20px}
+h1 span{color:var(--gold)}
+.tagline{font-size:clamp(1.2rem,2.8vw,1.8rem);font-weight:800;font-style:italic;margin:0 0 20px}
 .hero-copy{font-size:1.08rem;max-width:580px;color:#effff4}
 .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 20px;border-radius:40px;font-weight:900;text-decoration:none;border:2px solid transparent;transition:.18s}
 .btn:hover{transform:translateY(-2px);filter:brightness(1.04)}
-.btn-gold{background:var(--gold);color:#101820}.btn-outline{border-color:#a6f5c1;color:#fff;background:#ffffff0c}
+.btn-gold{background:var(--gold);color:#101820}
+.btn-outline{border-color:#a6f5c1;color:#fff;background:#ffffff0c}
+
 .hero-art{min-height:310px;display:grid;place-items:center;position:relative}
 .orbit{width:min(350px,90%);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 50% 40%,#c8f5d6 0 27%,#1ba95c 28% 58%,#08733f 59% 100%);display:grid;place-items:center;border:8px solid #42ed73;box-shadow:0 0 0 16px #ffffff12,0 25px 70px #001e1680}
 .student{font-size:clamp(6rem,15vw,10rem);filter:drop-shadow(0 12px 9px #00351f80)}
 .art-label{position:absolute;bottom:10px;right:0;background:#fff;color:#07502f;padding:12px 17px;border-radius:16px;font-weight:900;box-shadow:0 12px 30px #001c1555}
-main{padding:0 0 55px}.features-panel{background:#fff;border:1px solid #dce8f0;border-radius:26px;padding:20px;margin-top:-28px;position:relative;z-index:2;box-shadow:0 15px 35px #102e4514}
+
+main{padding:0 0 55px}
+.features-panel{background:#fff;border:1px solid #dce8f0;border-radius:26px;padding:20px;margin-top:-28px;position:relative;z-index:2;box-shadow:0 15px 35px #102e4514}
 .section-pill{display:inline-flex;align-items:center;gap:12px;background:linear-gradient(90deg,#087b36,#009a46);color:#fff;border-radius:40px;padding:9px 21px;font-size:1.35rem;font-weight:900;margin:0 0 15px}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 .feature{display:flex;gap:14px;align-items:center;background:#f4f7fa;border:1px solid #e6edf2;border-radius:17px;padding:17px;min-height:112px;box-shadow:0 3px 8px #15283b0a}
 .ico{flex:0 0 58px;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:1.7rem;font-weight:900;background:#13a44b}
-.ico.blue{background:#1689e9}.ico.purple{background:#7628db}.ico.orange{background:#f28b08}
-.feature h3{font-size:1.02rem;line-height:1.2;margin:0 0 6px}.feature p{margin:0;font-size:.91rem;color:#263548}
+.ico.blue{background:#1689e9}
+.ico.purple{background:#7628db}
+.ico.orange{background:#f28b08}
+.feature h3{font-size:1.02rem;line-height:1.2;margin:0 0 6px}
+.feature p{margin:0;font-size:.91rem;color:#263548}
+
 .updates{display:grid;grid-template-columns:1fr 1fr .62fr;gap:18px;margin:32px 0}
 .update-card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 8px 24px #18364b12;border:1px solid #e4edf2}
 .update-card h2{margin:0;padding:12px 18px;color:#fff;font-size:1.35rem;background:linear-gradient(90deg,#08a447,#07803b)}
 .update-card.soon h2{background:linear-gradient(90deg,#064b68,#092c4a)}
-.update-body{padding:15px 18px}.update-body ul{padding:0;margin:0;list-style:none}.update-body li{margin:8px 0;font-size:.93rem}.tick{color:#0baf4b;font-weight:900;margin-right:8px}.star{color:#e5ad00;margin-right:8px}
+.update-body{padding:15px 18px}
+.update-body ul{padding:0;margin:0;list-style:none}
+.update-body li{margin:8px 0;font-size:.93rem}
+.tick{color:#0baf4b;font-weight:900;margin-right:8px}
+.star{color:#e5ad00;margin-right:8px}
 .motto{display:flex;align-items:center;justify-content:center;text-align:center;font-size:clamp(1.5rem,3vw,2.2rem);font-weight:900;font-style:italic;color:#07552e;padding:15px}
+
 .developer{background:linear-gradient(110deg,#002c20,#003c2c 55%,#001f20);border:2px solid #078b4a;border-radius:24px;color:#fff;overflow:hidden;box-shadow:0 13px 30px #0b38221c}
 .dev-main{display:grid;grid-template-columns:1.05fr .95fr;gap:25px;align-items:center;padding:27px}
 .dev-brand{display:flex;align-items:center;gap:14px;color:#b9f4d0;font-size:clamp(1.2rem,3vw,1.8rem);font-weight:900}
 .code-icon{width:58px;height:58px;border-radius:50%;border:1px solid #087c60;background:#003c39;display:grid;place-items:center;color:#23d9e7;font-size:1.8rem}
 .dev-name{font-size:clamp(2.7rem,6vw,4.8rem);font-weight:900;font-style:italic;letter-spacing:-.04em;color:#61ed75;margin:4px 0}
 .dev-role{font-size:1.02rem;font-weight:700;font-style:italic;color:#e9fff0}
-.dev-services h3{margin:0 0 8px;font-size:1.15rem}.dev-services p{margin:5px 0}.dev-services ul{padding:0;list-style:none;margin:10px 0 17px}.dev-services li{margin:6px 0}.contact{background:linear-gradient(90deg,#08a846,#10bb51);border:2px solid #8bffac;color:#fff;padding:13px 22px;border-radius:40px;display:inline-flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;font-size:1.08rem;font-weight:900;box-shadow:0 7px 20px #001d1760}
-.contact small{display:block;font-size:.72rem;font-weight:600}.dev-strip{border-top:1px solid #0a8a58;background:#001e19a8;padding:13px 18px;display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;font-weight:700;font-style:italic}
-.flag{font-size:1.8rem}.dev-strip .divider{height:24px;width:1px;background:#ffffff65}
-.iphone{margin-top:24px;background:#fff;border:1px solid #dce8f0;border-radius:17px;padding:19px 22px}.iphone h3{margin:0 0 5px}.iphone p{margin:0;color:var(--muted);font-size:.94rem}
-footer{background:#032d20;color:#e9fff0;padding:23px 0;text-align:center}footer p{margin:5px}
-@media(max-width:850px){.hero-inner{grid-template-columns:1fr .75fr}.grid{grid-template-columns:repeat(2,1fr)}.updates{grid-template-columns:1fr 1fr}.motto{grid-column:1/-1}.dev-main{grid-template-columns:1fr 1fr}}
-@media(max-width:620px){.navlinks{gap:12px}.navlinks a{font-size:.8rem}.hero-inner{grid-template-columns:1fr;padding:43px 0 58px}.hero-art{min-height:215px}.orbit{width:205px}.student{font-size:6rem}.art-label{right:4%;bottom:0}.grid{grid-template-columns:1fr}.feature{min-height:95px}.updates{grid-template-columns:1fr}.motto{min-height:90px}.dev-main{grid-template-columns:1fr;padding:22px}.dev-services{padding-top:5px}.dev-strip{gap:12px}.features-panel{padding:14px}.section-pill{font-size:1.15rem}}
+.dev-services h3{margin:0 0 8px;font-size:1.15rem}
+.dev-services p{margin:5px 0}
+.dev-services ul{padding:0;list-style:none;margin:10px 0 17px}
+.dev-services li{margin:6px 0}
+.contact{background:linear-gradient(90deg,#08a846,#10bb51);border:2px solid #8bffac;color:#fff;padding:13px 22px;border-radius:40px;display:inline-flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;font-size:1.08rem;font-weight:900;box-shadow:0 7px 20px #001d1760}
+.contact small{display:block;font-size:.72rem;font-weight:600}
+.dev-strip{border-top:1px solid #0a8a58;background:#001e19a8;padding:13px 18px;display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;font-weight:700;font-style:italic}
+.flag{font-size:1.8rem}
+.dev-strip .divider{height:24px;width:1px;background:#ffffff65}
+
+.iphone{margin-top:24px;background:#fff;border:1px solid #dce8f0;border-radius:17px;padding:19px 22px}
+.iphone h2{margin:0 0 5px;font-size:1.17rem}
+.iphone p{margin:0;color:var(--muted);font-size:.94rem}
+footer{background:#032d20;color:#e9fff0;padding:23px 0;text-align:center}
+footer p{margin:5px}
+
+@media(max-width:850px){
+.hero-inner{grid-template-columns:1fr .75fr}
+.grid{grid-template-columns:repeat(2,1fr)}
+.updates{grid-template-columns:1fr 1fr}
+.motto{grid-column:1/-1}
+.dev-main{grid-template-columns:1fr 1fr}
+}
+@media(max-width:620px){
+.navlinks{gap:12px}
+.navlinks a{font-size:.8rem}
+.hero-inner{grid-template-columns:1fr;padding:43px 0 58px}
+.hero-art{min-height:215px}
+.orbit{width:205px}
+.student{font-size:6rem}
+.art-label{right:4%;bottom:0}
+.grid{grid-template-columns:1fr}
+.feature{min-height:95px}
+.updates{grid-template-columns:1fr}
+.motto{min-height:90px}
+.dev-main{grid-template-columns:1fr;padding:22px}
+.dev-services{padding-top:5px}
+.dev-strip{gap:12px}
+.features-panel{padding:14px}
+.section-pill{font-size:1.15rem}
+}
 </style>
 </head>
+
 <body>
 <div class="top">
   <div class="wrap">
     <nav>
-      <a class="brand" href="#"><img src="icon-512.png" alt="AKSU logo" onerror="this.style.display='none'"><span>AKSU Study Companion</span></a>
-      <div class="navlinks"><a href="#">⌂ Home</a><a href="#features">★ Features</a><a href="#updates">ⓘ About</a><a href="#contact">✉ Contact</a></div>
+      <a class="brand" href="#" aria-label="AKSU Study Companion home">
+        <img src="icon-512.png" alt="AKSU Study Companion app icon" onerror="this.style.display='none'">
+        <span>AKSU Study Companion</span>
+      </a>
+      <div class="navlinks">
+        <a href="#">⌂ Home</a>
+        <a href="#features">★ Features</a>
+        <a href="#updates">ⓘ About</a>
+        <a href="#contact">✉ Contact</a>
+      </div>
     </nav>
   </div>
 </div>
-<section class="hero">
+
+<section class="hero" aria-labelledby="page-title">
  <div class="wrap hero-inner">
   <div>
    <span class="kicker">🎓 YOUR STUDENT LEARNING HUB</span>
-   <h1>AKSU Study<br><span>Companion</span></h1>
+   <h1 id="page-title">AKSU Study<br><span>Companion</span></h1>
    <p class="tagline">Study Smarter. Achieve Better.</p>
    <p class="hero-copy">Your all-in-one study partner — with GPA, CGPA, CBT practice, study resources and more, all in one convenient place.</p>
-   <div class="hero-actions"><a class="btn btn-gold" href="aksu_study_companion.apk" download>⬇ Download Android App</a><a class="btn btn-outline" href="#iphone">ⓘ For iPhone Users</a></div>
+   <div class="hero-actions">
+    <a class="btn btn-gold" href="aksu_study_companion.apk" download>⬇ Download Android App</a>
+    <a class="btn btn-outline" href="#iphone">ⓘ For iPhone Users</a>
+   </div>
   </div>
-  <div class="hero-art" aria-label="Student learning illustration"><div class="orbit"><div class="student">🎓</div></div><div class="art-label">LEARN • PRACTICE • EXCEL</div></div>
+  <div class="hero-art" role="img" aria-label="Graduation cap illustration representing student learning">
+   <div class="orbit"><div class="student" aria-hidden="true">🎓</div></div>
+   <div class="art-label">LEARN • PRACTICE • EXCEL</div>
+  </div>
  </div>
 </section>
+
 <main class="wrap">
- <section class="features-panel" id="features">
-  <h2 class="section-pill">⭐ Our Features</h2>
+ <section class="features-panel" id="features" aria-labelledby="features-heading">
+  <h2 class="section-pill" id="features-heading">⭐ Our Features</h2>
   <div class="grid">
-   <article class="feature"><div class="ico">▦</div><div><h3>General GPA Calculator</h3><p>For AKSU departments and levels.</p></div></article>
-   <article class="feature"><div class="ico blue">↗</div><div><h3>General CGPA Calculator</h3><p>Calculate your CGPA easily.</p></div></article>
-   <article class="feature"><div class="ico purple">🏛</div><div><h3>Public Administration GPA</h3><p>Course-focused academic tools.</p></div></article>
-   <article class="feature"><div class="ico orange">▣</div><div><h3>CBT Practice</h3><p>Prepare with course-based questions.</p></div></article>
-   <article class="feature"><div class="ico">▤</div><div><h3>Study Materials</h3><p>Useful notes and learning resources.</p></div></article>
-   <article class="feature"><div class="ico blue">✓</div><div><h3>More Student Tools</h3><p>New features are being planned.</p></div></article>
+   <article class="feature"><div class="ico" aria-hidden="true">▦</div><div><h3>General GPA Calculator</h3><p>For AKSU departments and levels.</p></div></article>
+   <article class="feature"><div class="ico blue" aria-hidden="true">↗</div><div><h3>General CGPA Calculator</h3><p>Calculate your CGPA easily.</p></div></article>
+   <article class="feature"><div class="ico purple" aria-hidden="true">🏛</div><div><h3>Public Administration GPA</h3><p>Course-focused academic tools.</p></div></article>
+   <article class="feature"><div class="ico orange" aria-hidden="true">▣</div><div><h3>CBT Practice</h3><p>Prepare with course-based questions.</p></div></article>
+   <article class="feature"><div class="ico" aria-hidden="true">▤</div><div><h3>Study Materials</h3><p>Useful notes and learning resources.</p></div></article>
+   <article class="feature"><div class="ico blue" aria-hidden="true">✓</div><div><h3>More Student Tools</h3><p>New features are being planned.</p></div></article>
   </div>
  </section>
- <section class="updates" id="updates">
-  <div class="update-card"><h2>📢 What's New?</h2><div class="update-body"><ul><li><span class="tick">✔</span>General GPA and CGPA tools for AKSU students</li><li><span class="tick">✔</span>CBT practice and course resources</li><li><span class="tick">✔</span>Ongoing improvements to the app</li></ul></div></div>
-  <div class="update-card soon"><h2>🚀 Coming Soon...</h2><div class="update-body"><ul><li><span class="star">★</span>Assignment Assistant</li><li><span class="star">★</span>Affordable Data Updates</li><li><span class="star">★</span>Study Timetable, Tasks and Reminders</li></ul><p style="font-size:.8rem;color:#637083;margin:12px 0 0">Planned features will be announced when ready.</p></div></div>
+
+ <section class="updates" id="updates" aria-label="App updates and planned features">
+  <div class="update-card">
+   <h2>📢 What's New?</h2>
+   <div class="update-body">
+    <ul>
+     <li><span class="tick">✔</span>General GPA and CGPA tools for AKSU students</li>
+     <li><span class="tick">✔</span>CBT practice and course resources</li>
+     <li><span class="tick">✔</span>Ongoing improvements to the app</li>
+    </ul>
+   </div>
+  </div>
+
+  <div class="update-card soon">
+   <h2>🚀 Coming Soon...</h2>
+   <div class="update-body">
+    <ul>
+     <li><span class="star">★</span>Assignment Assistant</li>
+     <li><span class="star">★</span>Affordable Data Updates</li>
+     <li><span class="star">★</span>Study Timetable, Tasks and Reminders</li>
+    </ul>
+    <p style="font-size:.8rem;color:#637083;margin:12px 0 0">Planned features will be announced when ready.</p>
+   </div>
+  </div>
+
   <div class="motto">Your Success<br>is Our Priority!</div>
  </section>
- <section class="developer" id="contact">
+
+ <section class="developer" id="contact" aria-labelledby="developer-heading">
   <div class="dev-main">
    <div>
-    <div class="dev-brand"><span class="code-icon">&lt;/&gt;</span> Built &amp; Developed by</div>
+    <div class="dev-brand">
+     <span class="code-icon" aria-hidden="true">&lt;/&gt;</span>
+     <span id="developer-heading">Built &amp; Developed by</span>
+    </div>
     <div class="dev-name">UserBusy</div>
     <div class="dev-role">Web Developer • Website Builder • App Creator</div>
    </div>
+
    <div class="dev-services">
     <h3>Need a Website, App or Tech Help?</h3>
     <p>Get in touch to discuss your idea.</p>
-    <ul><li><span class="tick">✔</span>Website Development &amp; Design</li><li><span class="tick">✔</span>App Creation &amp; Assistance</li><li><span class="tick">✔</span>General Tech Support</li></ul>
-    <a class="contact" href="mailto:wizzypeter2024@gmail.com?subject=Website%20or%20App%20Development%20Enquiry&body=Hello%20UserBusy%2C%0A%0AI%20would%20like%20to%20discuss%20a%20website%20or%20app%20project.%0A%0AMy%20idea%3A%0A"><span>✉</span><span>Contact Developer<small>Chat via Email</small></span></a>
+    <ul>
+     <li><span class="tick">✔</span>Website Development &amp; Design</li>
+     <li><span class="tick">✔</span>App Creation &amp; Assistance</li>
+     <li><span class="tick">✔</span>General Tech Support</li>
+    </ul>
+    <a class="contact" href="mailto:wizzypeter2024@gmail.com?subject=Website%20or%20App%20Development%20Enquiry&amp;body=Hello%20UserBusy%2C%0A%0AI%20would%20like%20to%20discuss%20a%20website%20or%20app%20project.%0A%0AMy%20idea%3A%0A">
+     <span aria-hidden="true">✉</span>
+     <span>Contact Developer<small>Chat via Email</small></span>
+    </a>
    </div>
   </div>
-  <div class="dev-strip"><span class="flag">🇳🇬</span><span>×</span><span class="flag">🇮🇳</span><span>Bridging Ideas Across Borders</span><span class="divider"></span><span>👑 Powered by UserBusy</span></div>
+
+  <div class="dev-strip">
+   <span class="flag" aria-hidden="true">🇳🇬</span>
+   <span>×</span>
+   <span class="flag" aria-hidden="true">🇮🇳</span>
+   <span>Bridging Ideas Across Borders</span>
+   <span class="divider"></span>
+   <span>👑 Powered by UserBusy</span>
+  </div>
  </section>
- <section class="iphone" id="iphone"><h3>🍎 For iPhone Users</h3><p>Open the website in a supported browser on your iPhone. If an <strong>Add to Home Screen</strong> option is available, use it to create a shortcut. The Android APK cannot be installed on an iPhone.</p></section>
+
+ <section class="iphone" id="iphone" aria-labelledby="iphone-heading">
+  <h2 id="iphone-heading">🍎 For iPhone Users</h2>
+  <p>Open the website in a supported browser on your iPhone. If an <strong>Add to Home Screen</strong> option is available, use it to create a shortcut. The Android APK cannot be installed on an iPhone.</p>
+ </section>
 </main>
-<footer><div class="wrap"><p><strong>🎓 AKSU Study Companion</strong>　　Learn • Practice • Excel</p><p>© 2026 AKSU Study Companion · Created by UserBusy</p><p style="font-size:.8rem;opacity:.8">An independent student learning project.</p></div></footer>
+
+<footer>
+ <div class="wrap">
+  <p><strong>🎓 AKSU Study Companion</strong>　　Learn • Practice • Excel</p>
+  <p>© 2026 AKSU Study Companion · Created by UserBusy</p>
+  <p style="font-size:.8rem;opacity:.8">An independent student learning project.</p>
+ </div>
+</footer>
 </body>
 </html>
